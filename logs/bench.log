@@ -1,0 +1,11 @@
+2026-02-10 17:04:26,050 DEBUG cd mra_connect && uv venv env --seed --python python3
+2026-02-10 17:04:26,838 LOG Getting frappe
+2026-02-10 17:04:26,838 DEBUG cd mra_connect/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2026-02-10 17:04:30,201 LOG Installing frappe
+2026-02-10 17:04:30,202 DEBUG cd /home/oopesheesaha/projects/frappe-projects/mra_connect && uv pip install --quiet --upgrade -e /home/oopesheesaha/projects/frappe-projects/mra_connect/apps/frappe  --python /home/oopesheesaha/projects/frappe-projects/mra_connect/env/bin/python
+2026-02-10 17:04:33,181 DEBUG cd /home/oopesheesaha/projects/frappe-projects/mra_connect/apps/frappe && yarn install --check-files
+2026-02-10 17:04:52,473 DEBUG cd mra_connect && bench build
+2026-02-10 17:04:52,621 INFO /home/oopesheesaha/.local/bin/bench build
+2026-02-10 17:05:18,951 LOG setting up backups
+2026-02-10 17:05:18,981 LOG backups were set up
+2026-02-10 17:05:18,981 INFO Bench mra_connect initialized
