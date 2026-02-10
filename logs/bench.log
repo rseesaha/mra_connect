@@ -9,3 +9,9 @@
 2026-02-10 17:05:18,951 LOG setting up backups
 2026-02-10 17:05:18,981 LOG backups were set up
 2026-02-10 17:05:18,981 INFO Bench mra_connect initialized
+2026-02-10 17:14:12,548 INFO /home/oopesheesaha/.local/bin/bench new-app mra_connect
+2026-02-10 17:14:12,554 LOG creating new app mra_connect
+2026-02-10 17:15:21,431 LOG Installing mra_connect
+2026-02-10 17:15:21,432 DEBUG cd /home/oopesheesaha/projects/frappe-projects/mra_connect && uv pip install --quiet --upgrade -e /home/oopesheesaha/projects/frappe-projects/mra_connect/apps/mra_connect  --python /home/oopesheesaha/projects/frappe-projects/mra_connect/env/bin/python
+2026-02-10 17:15:21,969 DEBUG bench build --app mra_connect
+2026-02-10 17:15:22,047 INFO /home/oopesheesaha/.local/bin/bench build --app mra_connect

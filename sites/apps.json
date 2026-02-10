@@ -7,5 +7,15 @@
         "required": [],
         "idx": 1,
         "version": "17.0.0-dev"
+    },
+    "mra_connect": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d028a808370f90397a5686673427de366b1c28a4",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
     }
 }
